@@ -4,7 +4,7 @@
 
 Estos **type hints** son una nueva sintaxis, desde Python 3.6+, que permite declarar el <abbr title="por ejemplo: str, int, float, bool">tipo</abbr> de una variable.
 
-Usando las declaraciones de tipos para tus variables, los editores y otras herramientas pueden proveerte un soporte mejor.
+Usando las declaraciones de tipos para tus variables, los editores y otras herramientas pueden proveerte un mejor soporte.
 
 Este es solo un **tutorial corto** sobre los Python type hints. Solo cubre lo mínimo necesario para usarlos con **FastAPI**... realmente es muy poco lo que necesitas.
 
