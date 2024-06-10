@@ -222,13 +222,13 @@ También puedes declarar una clase como el tipo de una variable.
 Digamos que tienes una clase `Person`con un nombre:
 
 ```Python hl_lines="1-3"
-{!../../../docs_src/python_types/tutorial009.py!}
+{!../../../docs_src/python_types/tutorial010.py!}
 ```
 
 Entonces puedes declarar una variable que sea de tipo `Person`:
 
 ```Python hl_lines="6"
-{!../../../docs_src/python_types/tutorial009.py!}
+{!../../../docs_src/python_types/tutorial010.py!}
 ```
 
 Una vez más tendrás todo el soporte del editor:
@@ -249,9 +249,23 @@ Y obtienes todo el soporte del editor con el objeto resultante.
 
 Tomado de la documentación oficial de Pydantic:
 
-```Python
-{!../../../docs_src/python_types/tutorial010.py!}
-```
+=== "Python 3.10+"
+
+    ```Python
+    {!> ../../../docs_src/python_types/tutorial011_py310.py!}
+    ```
+
+=== "Python 3.9+"
+
+    ```Python
+    {!> ../../../docs_src/python_types/tutorial011_py39.py!}
+    ```
+
+=== "Python 3.8+"
+
+    ```Python
+    {!> ../../../docs_src/python_types/tutorial011.py!}
+    ```
 
 !!! info "Información"
     Para aprender más sobre <a href="https://docs.pydantic.dev/" class="external-link" target="_blank">Pydantic mira su documentación</a>.
